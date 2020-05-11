@@ -1,0 +1,39 @@
+{
+  "name": "angular-gantt-schedule-timeline-calendar",
+  "version": "1.1.22",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "tslib": "^1.10.0"
+  },
+  "dependencies": {
+    "gantt-schedule-timeline-calendar": "^2.6.8"
+  },
+  "license": "AGPL-3.0",
+  "description": "Angular version of gantt-schedule-timeline-calendar [ angular gantt, angular schedule, angular timeline, angular calendar, angular schedule timeline, angular gantt schedule, agngular booking ]",
+  "keywords": [
+    "angular gantt",
+    "gantt",
+    "schedule",
+    "timeline",
+    "calendar",
+    "gantt chart",
+    "angular schedule",
+    "angular scheduler",
+    "angular timeline",
+    "angular calendar",
+    "angular booking"
+  ],
+  "main": "bundles/angular-gantt-schedule-timeline-calendar.umd.js",
+  "module": "fesm5/angular-gantt-schedule-timeline-calendar.js",
+  "es2015": "fesm2015/angular-gantt-schedule-timeline-calendar.js",
+  "esm5": "esm5/angular-gantt-schedule-timeline-calendar.js",
+  "esm2015": "esm2015/angular-gantt-schedule-timeline-calendar.js",
+  "fesm5": "fesm5/angular-gantt-schedule-timeline-calendar.js",
+  "fesm2015": "fesm2015/angular-gantt-schedule-timeline-calendar.js",
+  "typings": "angular-gantt-schedule-timeline-calendar.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
